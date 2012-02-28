@@ -9,10 +9,12 @@ gem 'sqlite3'
 
 group :development do
   gem 'rspec-rails', '2.8.0'
+  gem 'webrat'
 end
 
 group :test do
   gem 'rspec-rails', '2.8.0'
+  gem 'webrat'
 end
 # Gems used only for assets and not required
 # in production environments by default.
